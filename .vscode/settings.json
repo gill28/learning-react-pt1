@@ -1,8 +1,19 @@
 {
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html"
-  },
-  "prettier.parser": "flow",
-  "html-css-class-completion.enableEmmetSupport": true
-}
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "html-css-class-completion.enableEmmetSupport": true,
+    "prettier.eslintIntegration": false,
+    "prettier.proseWrap": "never",
+    "prettier.stylelintIntegration": false,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es7",
+    "prettier.tslintIntegration": false,
+    "prettier.useTabs": true,
+    "prettier.requireConfig": true,
+    "prettier.disableLanguages": [
+      "vue",
+      "javascript"
+    ]
+  }
